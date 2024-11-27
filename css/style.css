@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 750px;
+}
+.main img{
+    width: 100%;
+    height: 100%;
+}
+.black{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+.menu{
+    width: 90%;
+    height: 70px;
+    margin-left: 5%;
+    top: 20px;
+    position: absolute;
+    z-index: 3;
+    border: 3px solid #878787;
+    opacity: 0.8;
+    
+}
+.logo{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    border: 1px solid #878787;
+}
+.menu li{
+    display: inline-block;
+    padding-left: 1px;
+    Letter-spacing: 1px ;
+    margin-left: 2%;
+    position: relative;
+    left: 30%;
+    top: 25%;
+    
+}
+.menu li a{
+    font-size: 24px;
+    color: rgb(157, 157, 157);
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: white; 
+}
+.name{
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    margin-left: 30%;
+    top: 250px;
+}
+.name a{
+    font-size: 60px;
+    position: relative;
+    margin-left: 12%;
+    color: rgba(154, 252, 239, 0.774);
+    font-style: italic;
+}
+.name p{
+    font-size: 18px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.733);
+    margin-left: 30%;
+}
+
+
+
+.block{
+    width: 100%;
+    height: 750px;
+    background-color: #18191A;
+}
+.image{
+    width: 450px;
+    height: 400px;
+    position: relative;
+    left: 55%;
+    top: 200px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: -200px;
+    left: 10%;
+}
+.text a{
+    font-size: 50px;
+    color: rgba(154, 252, 239, 0.774);
+}
+.text img{
+    width: 50px;
+    float: left;
+    top: 20px;
+    position: relative;
+}
+.text p{
+    color: rgb(144, 143, 143);
+    font-size: 24px;
+    margin-left: 80px;
+}
+.button{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.button h6{
+    font-size: 20px;
+    color: #18191A;
+    position: relative;
+    left: 22%;
+    top: 5px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    text-align: justify;
+    text-indent: 20px;
+}
+.footer a{
+    font-size: 18px;
+    left: 5%;
+    color: #18191A;
+    top: 30px;
+    text-align: justify;
+    text-indent: 20px;
+    right: 5%;
+   position: relative;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .main{
+        width: 100%;
+        height: 500px;
+    }
+    .black{
+        height: 500px;
+    }
+    .menu{
+        height: 45px;
+    }
+    .logo{
+        width: 60px;
+        height: 45px;
+    }
+    .menu li a{
+        font-size: 8px;
+    }
+    .name{
+        width: 60%;
+        top: 170px;
+    }
+    .name a {
+        font-size: 32px;
+        text-align: center;
+        margin-left: -13%;
+      }
+      .name p{
+        font-size: 12px;
+        margin-left: -30%;
+        text-align: center;
+      }
+      .text{
+        width: 235px;
+        height: 340px;
+        top: -100px;
+      }
+      .text a{
+        font-size: 18px;
+      }
+      .text img{
+        width: 19px;
+      }
+      .text p{
+        font-size: 16px;
+        margin-left: 30px;
+        text-align: justify;
+      }
+      .button{
+        width: 130px;
+        height: 25px;
+      }
+      .button h6{
+        font-size: 12px;
+      }
+      .image{
+        top: 500px;
+        width: 250px;
+        height: 180px;
+        left: 13%;
+      }
+      .footer{
+        height: 150px;
+        text-align: justify;
+        text-indent: 20px;
+      }
+      .footer a{
+        width: 500px;
+        font-size: 12px;
+        top: 16px;
+        left: 5%;
+        text-align: justify;
+    text-indent: 20px;
+    right: 5%;
+    position: relative;
+      }
+}
